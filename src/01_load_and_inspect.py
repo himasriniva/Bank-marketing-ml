@@ -1,3 +1,10 @@
+"""
+Inspect the raw Bank Marketing dataset: shape, dtypes, summary stats, target
+balance, missing values, 'unknown' category counts, and the pdays sentinel.
+
+Input:  data/raw/bank_marketing_raw.csv
+Output: none (prints inspection results to stdout)
+"""
 import pandas as pd
 
 # UCI's file is semicolon-separated, not comma-separated

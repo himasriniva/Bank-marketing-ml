@@ -1,3 +1,11 @@
+"""
+Clean the raw Bank Marketing dataset: drop duplicates, keep 'unknown' as its
+own category, add a was_contacted_before flag to replace the pdays=999
+sentinel, and report outliers in key numeric columns.
+
+Input:  data/raw/bank_marketing_raw.csv
+Output: data/processed/bank_marketing_clean.csv
+"""
 import pandas as pd
 import numpy as np
 

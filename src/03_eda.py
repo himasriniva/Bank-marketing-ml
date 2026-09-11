@@ -1,3 +1,15 @@
+"""
+Generate exploratory data analysis figures from the cleaned Bank Marketing
+data: target class balance, duration-leakage check, subscription rate by
+job, age distribution by outcome, and a numeric correlation heatmap.
+
+Input:  data/processed/bank_marketing_clean.csv
+Output: results/figures/01_class_balance.png
+        results/figures/02_duration_vs_target.png
+        results/figures/03_subscription_by_job.png
+        results/figures/04_age_distribution.png
+        results/figures/05_correlation_heatmap.png
+"""
 import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
